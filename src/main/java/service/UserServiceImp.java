@@ -3,9 +3,8 @@ package service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dao.UserDao;
-import com.entity.User;
-
+import dao.UserDao;
+import entity.User;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 
